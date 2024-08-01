@@ -28,7 +28,7 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: Run script
-      env: MCQD
+      env: 
         COOKIE: ${{ secrets.COOKIE }}
         devCode: ${{ secrets.devCode }}
       run: python mcMain.py
