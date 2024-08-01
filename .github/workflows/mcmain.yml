@@ -29,6 +29,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run script
       env:
-        COOKIE: ${{ eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkIjoxNzIyNDczNDg1MTg1LCJ1c2VySWQiOjE1MDA0NDk0fQ.Td26GEbjUGdASwHl6spwogXlyI5pLJPUojJinyyqhG0 }}
-        devCode: ${{ 3e1971c0-cf60-4d31-a415-175260f8b224 }}
+        COOKIE: eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkIjoxNzIyNDczNDg1MTg1LCJ1c2VySWQiOjE1MDA0NDk0fQ.Td26GEbjUGdASwHl6spwogXlyI5pLJPUojJinyyqhG0 
+        devCode: 3e1971c0-cf60-4d31-a415-175260f8b224
       run: python mcMain.py
